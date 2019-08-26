@@ -1,5 +1,6 @@
 # Server List in Angular
 
+- Make sure you have Angular CLI installed
 - `npm install`
 - `ng serve`
 
