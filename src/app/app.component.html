@@ -12,10 +12,10 @@
     >
       <p #contentParagraph>
         <strong *ngIf="serverElement.type === 'server'" style="color: red">{{
-          element.content
+          serverElement.content
         }}</strong>
         <em *ngIf="serverElement.type === 'blueprint'">{{
-          element.content
+          serverElement.content
         }}</em>
       </p>
     </app-server-element>

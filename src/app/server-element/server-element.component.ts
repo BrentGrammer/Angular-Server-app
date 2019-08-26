@@ -44,6 +44,7 @@ export class ServerElementComponent
 
   ngOnInit() {
     console.log("ngoninit called");
+    console.log("paragraph content", this.paragraph.nativeElement.textContent);
   }
 
   ngDoCheck() {
@@ -52,6 +53,7 @@ export class ServerElementComponent
 
   ngAfterContentInit() {
     console.log("after content init called");
+    console.log("paragraph content", this.paragraph.nativeElement.textContent);
   }
 
   ngAfterContentChecked() {
